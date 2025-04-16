@@ -75,7 +75,3 @@ if __name__ == "__main__":
     for key, value in data_to_be_chunked.items():
         folder, output_file, extension = value
         chunk_all_books(folder, output_file, extension)
-    
-    # chunk_all_books("data/HarryPotterBooks", "data/chunks/harry_potter_chunks.json", 'pdf')
-    # chunk_all_books("data/hogwarts_legacy", "data/chunks/hogwarts_legacy_chunks.json", 'txt')
-    # chunk_all_books("data/FantasticBeastsScripts", "data/chunks/fantastic_beasts_chunks.json", 'pdf')
